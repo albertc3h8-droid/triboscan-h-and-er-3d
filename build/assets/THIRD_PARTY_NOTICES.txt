@@ -1,0 +1,27 @@
+TriboScan3D 1.0.0 — third-party notices
+==================================================
+
+This portable folder bundles the following third-party components.
+Their full license texts are copied into the ``licenses\`` subfolder.
+
+Python 3.12                     PSF License Agreement
+VTK 9.7.1                       BSD 3-Clause License
+PyVista 0.49.2                  MIT License
+numpy 2.5.4                     BSD 3-Clause License
+matplotlib 3.11.2               PSF-based / matplotlib License
+Pillow 13.0.0                   HPND License
+openpyxl 3.1.5                  MIT License
+et_xmlfile 2.0.0                MIT License
+PyInstaller 6.17.0              GPL-2.0-or-later with bootloader exception
+pyinstaller-hooks-contrib       GPL-2.0-or-later / Apache-2.0 components
+
+TriboScan3D application code (app/, gui/, runtime/, integration/, io_exports/,
+result_store/) is delivered as compiled bytecode inside this portable folder.
+
+No component is modified. No telemetry, network access, installer, registry
+writes, or services are included. The program only reads user-selected
+``*_analysis.txt`` folders and writes below its own program folder
+(results/, cache/, logs/, config/).
+
+If a license file is missing from ``licenses\``, contact the maintainers for the
+upstream text before redistribution outside the originating organisation.

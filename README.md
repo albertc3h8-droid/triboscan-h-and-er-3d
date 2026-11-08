@@ -1,7 +1,9 @@
+**English** | [简体中文](README.zh-CN.md)
+
 # TriboScan H&Er 3D
 
-A native Windows desktop viewer for 3D hardness measurements. It reads Bruker
-`*_analysis.txt` exports, reconstructs Er / H fields, shows two 3D panels with
+A native Windows desktop viewer for 3D hardness measurements. It reads `*_analysis.txt`
+exports, reconstructs Er / H fields, shows two 3D panels with
 slices and the full point cloud, and exports PNG, `.tsr3` fields and raw-point
 CSV.
 
@@ -9,7 +11,7 @@ This is an independent open-source project. It is not affiliated with, endorsed
 by, or supported by any employer or instrument vendor. The sample data in the
 release is public demonstration data.
 
-![3D view](docs/images/interp_tps_app.png)
+![3D view](docs/images/app_en.png)
 
 ## Features
 
